@@ -11,7 +11,7 @@ import themeConfig from '../configs/thems';
 import Timer from '../Timer/Timer';
 import Slider from '../Slider/Slider';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from 'react-router-dom';
@@ -29,11 +29,11 @@ const App = () => {
       }}
     >
       <div className='App'>
-        <BrowserRouter>
+        <HashRouter>
           <Layout>
             <Routes>
 
-              
+
               <Route
   path="/"
   element={
@@ -66,7 +66,7 @@ const App = () => {
               />
             </Routes>
           </Layout>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </ThemeContext.Provider>
   );

@@ -41,7 +41,7 @@ useEffect(() => {
       <Link to={`/product/${data.id}`}>
       <h3>{data.name}</h3>
       </Link>
-      <Image imageSrc={data.image} />
+      <Image imageSrc={process.env.PUBLIC_URL + data.image} />
       <span>Price: {data.price}</span>
       <Button
       handleClick={handleAdd}
