@@ -1,8 +1,44 @@
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 20px;
 }
 
+.products {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.products li {
+  margin: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.products li h3 {
+  padding: 0px;
+  margin: 5px;
+}
+.products li img {
+  width: 100%;
+  height: 150px;
+}
+
+.products li span {
+  padding: 10px;
+  height: 20px;
+  width: 100%;
+}
+.products button {
+  width: 100%;
+  border: 1px solid #27ae60;
+  color: #27ae60;
+  cursor: pointer;
+}
 .App-logo {
+
   height: 40vmin;
   pointer-events: none;
 }

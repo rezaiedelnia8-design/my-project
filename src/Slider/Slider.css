@@ -1,0 +1,13 @@
+.Slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Slider img {
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}

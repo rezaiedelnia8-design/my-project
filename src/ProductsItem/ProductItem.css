@@ -1,0 +1,23 @@
+.ProductItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ProductItem.visible {
+  opacity: 1;
+
+}
+.ProductItem button {
+  width: 100%;
+  border: 1px solid #27ae60;
+  color: #27ae60;
+  cursor: pointer;
+}
+.ProductItem button:hover {
+  border: 1px solid #9b0d14 !important;
+  color: #9b9b9b !important;
+}
+.ProductItem button .Added {
+  border: 1px solid #9b0d14 !important;
+  color: #9b0d14 !important;
+}
